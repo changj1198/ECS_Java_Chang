@@ -8,7 +8,6 @@ public class StillUsingVariables {
 	myName = "Josh S. Chang";
 	da = 2020;
 	System.out.println("my name is " + myName + " and I will graduate in " + da + ".");
-	System.out.println("wow, that ended up going really well!");
 	
 	
 	

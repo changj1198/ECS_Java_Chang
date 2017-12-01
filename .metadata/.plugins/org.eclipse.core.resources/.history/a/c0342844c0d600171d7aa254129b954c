@@ -8,7 +8,7 @@ public class main {
 		helper.meow();
 		h.ok();
 		g.dare();
-		System.out.println("a ok");
+		
 		
 	}
 	
