@@ -17,11 +17,11 @@ public void dare()
 	System.out.println("He's " + myHeight + " inches tall.");
 	System.out.println("He's " + myWeight + " pounds heavy.");
 	System.out.println("Actually, that's not too heavy.");
-	System.out.println("He's got " + myEyes + "eyes and " + myHair + " hair.");
+	System.out.println("He's got " + myEyes + " eyes and " + myHair + " hair.");
 	System.out.println(" His teeth are usually " + myTeeth + " depending on the coffee.");
 	
 	System.out.println("If I add " + myAge + "; " + myHeight + ", and " + myWeight + " I get " + (myAge + myHeight + myWeight) + ".");
-	
+	System.out.println("Those are the characteristics of " + myName);
 
 }
 }
