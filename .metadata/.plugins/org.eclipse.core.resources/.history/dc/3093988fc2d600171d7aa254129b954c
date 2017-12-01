@@ -1,6 +1,6 @@
 
 public class MoreVN {
-	public static void main(String[] args)
+public void dare()
 {
 //variables assignment #3
 	String myName, myEyes, myTeeth, myHair;

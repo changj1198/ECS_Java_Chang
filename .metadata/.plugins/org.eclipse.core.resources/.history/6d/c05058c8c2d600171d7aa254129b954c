@@ -1,6 +1,6 @@
 
 public class uV {
-	public static void main(String[] args)
+	public void ok()
 	{
 	//variables assignment #2
 		int yer;
