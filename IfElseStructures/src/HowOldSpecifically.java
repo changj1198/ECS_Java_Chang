@@ -1,4 +1,4 @@
-import javax.security.auth.login.FailedLoginException;
+
 import java.util.Scanner;
 public class HowOldSpecifically {
 public static void main ( String[] args)
@@ -27,6 +27,6 @@ public static void main ( String[] args)
 	{
 		System.out.println("You can pretty much do anything you want.");
 	}
-
+keyboard.close();
 }
 }
