@@ -17,19 +17,19 @@ weight = keyboard.nextInt();
 BMI = (weight*0.4536) / ((inches*0.0254)*(inches*0.0254));
 if (BMI < 18.5)
 {
-	System.out.println("Your BMI is" + BMI + ".Underweight.");
+	System.out.println("Your BMI is " + BMI + ".Underweight.");
 }
 else if (BMI > 18.5 && BMI < 25)
 {
-	System.out.println("Your BMI is" + BMI + ".Normal weight.");
+	System.out.println("Your BMI is " + BMI + ".Normal weight.");
 }
 else if (BMI > 24.9 && BMI < 30)
 {
-	System.out.println("Your BMI is" + BMI + ".Overweight.");
+	System.out.println("Your BMI is " + BMI + ".Overweight.");
 }
 else if (BMI > 29.9)
 {
-System.out.print("Your BMI is" + BMI + ". Obese.");	
+System.out.print("Your BMI is " + BMI + ". Obese.");	
 }
 else
 {
