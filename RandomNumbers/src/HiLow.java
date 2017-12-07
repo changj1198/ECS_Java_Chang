@@ -17,7 +17,7 @@ public static void main( String[] args)
 	}
 	else if (name == choice)
 	{
-		System.out.println("Nice.  You guessd it correct.");
+		System.out.println("Nice.  You guessd it correct.  What are the odds?");
 		
 	}
 	else if (name < choice)

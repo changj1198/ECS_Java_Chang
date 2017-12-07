@@ -7,7 +7,7 @@ public static void main( String[] args)
 	one = 1 + r.nextInt(5);
 	two = 1 + r.nextInt(5);
 	
-	System.out.println("Here comes the dice!");
+	System.out.println("Here come the dice!");
 	
 	System.out.println("Roll #1: " + one);
 	System.out.println("Roll #2: " + two);

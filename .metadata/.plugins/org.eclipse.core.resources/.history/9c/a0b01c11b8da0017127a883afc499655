@@ -1,0 +1,58 @@
+import java.util.Random;
+public class test {
+public static void main ( String[] args )
+{
+    Random random = new Random();
+    
+    int choice  = 1 + random.nextInt(20);
+    String response = " ";
+    
+    if ( choice == 1 )
+        response = "nope.";
+    else if ( choice == 2 )
+        response = "No";
+    else if ( choice == 3 )
+        response = "Are you kidding me? NO!";
+    else if ( choice == 4 )
+        response = "Definitely not.";
+    else if ( choice == 5 )
+        response = "Oh please....";
+    else if ( choice == 6 )
+        response = "As I see it, hell no.";
+    else if ( choice == 7 )
+        response = "Of course not.";
+    else if ( choice == 8 )
+        response = "Outlook trash af";
+    else if ( choice == 9 )
+        response = "Signs point to never";
+    else if ( choice == 10 )
+        response = "No. Just...no.";
+    else if ( choice == 11 )
+        response = "My reply is no. Go away.";
+    else if ( choice == 12 )
+        response = "Ask again when I have the decency to say yes.";
+    else if ( choice == 13 )
+        response = "Better not tell you yes.  I need to speak the truth, you know.";
+    else if ( choice == 14 )
+        response = "Can predict no 100% sure.";
+    else if ( choice == 15 )
+        response = "Concentrate and think...did you think I would say yes?";
+    else if ( choice == 16 )
+        response = "Don't even.";
+    else if ( choice == 17 )
+        response = "Oh HELLLLL NOOO.";
+    else if ( choice == 18 )
+        response = "Stop and go away.  No means no.";
+    else if ( choice == 19 )
+        response = "Leave me alone.";
+    else if ( choice == 20 )
+        response = "I'm pretty sure you will break me if you keep shaking me.";
+    else 
+        response = "8-BALL ERROR!";
+
+    System.out.println( "MAGIC 8-BALL SAYS: " + response );
+
+}
+}
+
+

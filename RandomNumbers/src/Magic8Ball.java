@@ -8,7 +8,7 @@ public static void main ( String[] args )
 	String response = " ";
 	
 	if ( choice == 1 )
-		response = "It is certain";
+		response = "Certainly";
 	else if ( choice == 2 )
 		response = "It is decidedly so";
 	else if ( choice == 3 )
