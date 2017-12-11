@@ -33,7 +33,7 @@ public class BetterCollatz {
 		{
 			y = y + 1;
 			x = (x*3) +1;
-			if (z < x)
+			if (z > x)
 			{
 			z = x;
 			}

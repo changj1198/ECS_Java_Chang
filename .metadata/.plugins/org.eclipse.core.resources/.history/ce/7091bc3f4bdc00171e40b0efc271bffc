@@ -24,6 +24,5 @@ public static void main(String[] args)
 	else if (z >= 7)
 		System.out.println("7 tries up. You lose.");
 
-	keyboard.close();
 }
 }

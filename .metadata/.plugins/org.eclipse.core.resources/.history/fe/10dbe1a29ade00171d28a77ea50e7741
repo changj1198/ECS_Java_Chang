@@ -6,7 +6,6 @@ public class BetterCollatz {
 		Scanner keyboard = new Scanner(System.in);
 	int x, y, z;
 	y = 0;
-	z = 0;
 	System.out.println("Let's create a Collat sequence.");
 	System.out.println("Rules:");
 	System.out.println("If the number is even, divide it by 2.");
@@ -33,15 +32,11 @@ public class BetterCollatz {
 		{
 			y = y + 1;
 			x = (x*3) +1;
-			if (z < x)
-			{
-			z = x;
-			}
 			System.out.print(x + " - ");
 		}
 		
 	} while (x != 1);
 System.out.println("	It took " + y + " steps.");
-System.out.println("The largest value was " + z);
+System.out.println("The largest value was ");
 	}
 }
