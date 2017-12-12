@@ -9,7 +9,7 @@ public static void main(String[] args)
 	int x = 1 + r.nextInt(10);
 	int y = 1;
 	int entry;
-	System.out.println("I'm thinking of a number 1-10.  try to guess it." + x);
+	System.out.println("I'm thinking of a number 1-10.  try to guess it.");
 	 entry = keyboard.nextInt();
 	do {
 		if (entry != x)

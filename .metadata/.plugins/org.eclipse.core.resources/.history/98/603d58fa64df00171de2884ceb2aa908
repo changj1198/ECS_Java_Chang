@@ -1,0 +1,36 @@
+import java.util.Scanner;
+public class CountingMachineRevisited {
+public static void main(String[] args)
+{
+	Scanner keyboard = new Scanner(System.in);
+	int x, y, z, b, c;
+	System.out.println("Count from: ");
+	b = keyboard.nextInt();
+	System.out.print("Count to: ");
+	y = keyboard.nextInt();
+	System.out.println("Count by");
+	z = keyboard.nextInt();
+	x = b;
+	c = b % y;
+	
+	
+	for(int p = 2; p != 1; p++){
+		
+		if (c == 0){
+		if (x != y){
+			x = x + z;
+			System.out.println(x);
+			
+		}else{
+			p = 1;
+		}
+	}else{
+		p = 1;
+		System.out.println("UNBOUND STEP");
+	}
+	
+	}
+	}
+}	
+
+

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class AddingValuesForLoop {
+public static void main(String[] args)
+{
+	Scanner keyboard = new Scanner(System.in);
+	System.out.println("Number: ");
+	int x = keyboard.nextInt();
+	int z = 0;
+	for (int i = 0; i <= x; i++) {
+		z = z + i;
+		System.out.print(i + " ");
+		
+	}
+	System.out.println(" ");
+	System.out.println("The sum is: " + z);
+}
+}
