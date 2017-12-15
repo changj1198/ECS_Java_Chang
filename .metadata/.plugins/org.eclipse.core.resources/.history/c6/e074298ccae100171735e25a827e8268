@@ -14,7 +14,7 @@ public static void main(String[] args){
 	
 	for (int k = 0; k <= y ; k++ ){
 		boolean m = primecheck(k);
-		System.out.println(k + " is prime is: " + m);
+		System.out.print(k + " is prime is: " + k);
 	}
 	
 }
