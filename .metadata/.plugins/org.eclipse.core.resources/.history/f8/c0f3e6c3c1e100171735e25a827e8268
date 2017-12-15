@@ -26,10 +26,9 @@ public class AreaCalc {
 	}
 	public double qer(String input){
 		Scanner keyboard = new Scanner(System.in);
-		
 		System.out.println(input);
-		//String selectd = keyboard.next();
-		//keyboard.close();
+		String cz = keyboard.nextLine();
+		keyboard.close();
 		//double cp = Double.parseDouble(cz);
 		//return cp;
 		return 0.423424;

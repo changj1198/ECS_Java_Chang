@@ -28,7 +28,7 @@ public class AreaCalc {
 		Scanner keyboard = new Scanner(System.in);
 		
 		System.out.println(input);
-		//String selectd = keyboard.next();
+		String selectd = keyboard.next();
 		//keyboard.close();
 		//double cp = Double.parseDouble(cz);
 		//return cp;

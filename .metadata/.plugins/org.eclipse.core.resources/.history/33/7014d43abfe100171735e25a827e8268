@@ -24,16 +24,13 @@ public class AreaCalc {
 		
 		}
 	}
-	public double qer(String input){
+	private double qer(String input){
+		double c;
 		Scanner keyboard = new Scanner(System.in);
-		
 		System.out.println(input);
-		//String selectd = keyboard.next();
-		//keyboard.close();
-		//double cp = Double.parseDouble(cz);
-		//return cp;
-		return 0.423424;
-	
+		c = keyboard.nextDouble();
+		keyboard.close();
+		return c;
 		
 	}
 	
@@ -44,21 +41,21 @@ public class AreaCalc {
 		
 	}
 	public double arearect(){
-	double l = qer("What is the length? ");
-	double w = qer("What is the width? ");
-	double lw = (l * w);
-	return lw;
+	double ar = qer("What is the length? ");
+	double ra = qer("What is the width? ");
+	double rr = (ar * ra);
+	return rr;
 	}
 	public double areasquare(){
-	double l = qer("What is the side length?");
-	double a = Math.pow(l,2);
-	return a;
+	double am = qer("What is the side length?");
+	double ma = Math.pow(am,2);
+	return ma;
 	}
 	public double areatri(){
-	double b = qer("What is the base? " );
-	double h = qer("What is the height? ");
-	double x = (b * h);
-	double cf = (x / 2);
-	return cf;
+	double de = qer("What is the base? " );
+	double ed = qer("What is the height? ");
+	double dee = (de * ed);
+	double eed = (dee / 2);
+	return eed;
 }
 }

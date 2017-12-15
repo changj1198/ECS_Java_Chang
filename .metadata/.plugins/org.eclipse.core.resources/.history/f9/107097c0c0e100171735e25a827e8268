@@ -24,16 +24,12 @@ public class AreaCalc {
 		
 		}
 	}
-	public double qer(String input){
+	private double qer(String input){
 		Scanner keyboard = new Scanner(System.in);
-		
 		System.out.println(input);
-		//String selectd = keyboard.next();
-		//keyboard.close();
-		//double cp = Double.parseDouble(cz);
-		//return cp;
-		return 0.423424;
-	
+		double cz = keyboard.nextDouble();
+		keyboard.close();
+		return cz;
 		
 	}
 	
